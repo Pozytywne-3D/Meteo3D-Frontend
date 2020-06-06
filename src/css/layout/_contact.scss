@@ -1,0 +1,20 @@
+.contact{
+  margin: 15rem 0 20rem 0;
+    &--title{
+      @include fontStyle($primary, 17rem, 800, center);
+      text-transform: uppercase;
+    }
+    &--text{
+      @include fontStyle($primary, 4.6rem, 800, center);
+        span{
+          color: $secondaryColor;
+        }
+    }
+    .email{
+      margin-top: 2rem;
+      transition: .1s;
+        &:hover{
+          color: $secondaryColor;
+        }
+    }
+}

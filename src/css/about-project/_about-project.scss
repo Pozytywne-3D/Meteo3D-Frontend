@@ -1,0 +1,30 @@
+.about_project {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+    text-align: center;
+    &--logo {
+      width: 91rem;
+      margin: 0 auto;
+      padding-top: 10rem;
+      padding: 5rem;
+    }
+
+    &--title {
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 15rem;
+        margin-top: 14rem;
+        margin-bottom: 4rem;
+    }
+
+    &__description {
+        @include fontStyle($primary, 4.6rem, 800, center);
+        padding: 4rem;
+            .color {
+                color: $secondaryColor;
+            }
+    }
+}
+
+@import './rwd_about-project'

@@ -1,0 +1,32 @@
+.header {
+    background-color: #FFCC00;
+    float: right;
+    width: 100%;
+    padding: 2rem 1rem;
+    line-height: 60px;
+    &__nav {
+        font-weight: 500;
+        width: 90%;
+        margin: 0 auto;
+        &--element {
+            @include fontStyle($primary, 2.4rem, 600, center);
+            float: right;
+            margin-right: 30px;
+            list-style: none;
+            a::after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: $primary;
+                transition: .3s;
+                position: relative;
+                bottom: 15px;
+            }
+            a:hover::after{
+                width: 100%;
+            }
+        }
+    }
+
+}

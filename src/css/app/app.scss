@@ -1,0 +1,43 @@
+$primary: #000;;
+$transition: all .1s cubic-bezier(.87, -.41, .19, 1);
+
+
+$mainColor: #000;
+$secondaryColor: #ffcc00;
+$hoverColor: #cc9c5c;
+
+
+/* Breakpoints */
+$minPhone: 450px;
+$phone: 600px;
+$minTablet: 690px;
+$tablet: 770px;
+$minLaptop: 1024px;
+$laptop: 1220px;
+$minDesktop: 1470px; 
+$desktop: 1580px;
+
+/* Mobile nav breakpoint */
+$mobile: 800px;
+
+/* Define with of layout to recalculate vw */
+$projectWidth: 1440px;
+$gridWidth: $minDesktop;
+
+
+/* Libraries */
+@import './lib/reset';
+@import './lib/helpers';
+@import './lib/grid';
+@import './lib/mixins';
+@import './lib/typography';
+
+@import '../layout/header';
+@import '../layout/footer';
+@import '../../css/propper-app/propper-app';
+@import '../about-project/about-project';
+@import '../layout/partners';
+@import '../layout/contact';
+@import '../curiosities/curiosities';
+
+@import '../layout/rwd_layout';

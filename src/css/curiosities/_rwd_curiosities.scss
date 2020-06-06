@@ -1,0 +1,14 @@
+@media screen and (max-width: $mobile) { 
+  .curiosities{
+    &--title{
+      font-size: 9rem;
+    }
+    &__main{
+      flex-direction: column;
+        &--img{
+          margin: 0 auto;
+          margin-bottom: 5rem;
+        }
+    }
+  }
+}

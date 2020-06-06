@@ -1,0 +1,22 @@
+@media screen and (max-width: $mobile) { 
+  .propper-app{
+    .presentation_info{
+      background-color: red;
+        &__table{
+          grid-template-columns: repeat(2, 25rem);
+          row-gap: 5rem;
+          column-gap: 2rem;
+          height: auto;
+        }
+        &__chart_block{
+          width: 90%;
+          margin: 0 auto;
+          margin-top: 10rem;
+            &--chart{
+              width: 90vw;
+              margin: 0 auto;
+            }
+        }
+    }
+  }
+}

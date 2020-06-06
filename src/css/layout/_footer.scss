@@ -1,0 +1,53 @@
+.footer{
+  
+  background-color: $secondaryColor;
+  padding: 3.5rem 5rem 3.7rem 5rem;
+  margin-top: 10rem;
+    &__top{
+      @include center;
+    }
+    &__bottom{
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+    &--branding{
+      display: flex;
+      align-self: flex-end;
+      align-items: flex-end;
+        img{
+          width: 15rem;
+        }
+    }
+    &--api{
+      @include fontStyle($primary, 2rem, 700, left);
+      margin-left: 4rem;
+    }
+    &__socials{
+      @include center;
+      flex-direction: column;
+      margin-bottom: 5rem;
+        &--title{
+          @include fontStyle($primary, 5rem, 800, center);
+          margin-bottom: 1rem;
+        }
+        .social_list{
+          @include center;
+          list-style: none;
+            &--element{
+              margin: 1.8rem;
+                img{
+                  width: 8.2rem;
+                  transition: .35s;
+                    &:hover{
+                      transform: rotate(-10deg);
+                    }
+                }
+            }
+        }
+    }
+    &__author{
+      @include fontStyle($primary, 2rem, 600, center);
+      align-self: flex-end;
+    }
+}

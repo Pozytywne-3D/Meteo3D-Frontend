@@ -1,0 +1,16 @@
+@media screen and (max-width: $mobile) { 
+    .partners{
+        width: 100%;
+            .line{
+                width: 70%;
+            }
+    }
+    .contact{
+        &--title{
+            font-size: 13rem;
+        }
+        &--text{
+            font-size: 3.5rem;
+        }
+    }
+}
