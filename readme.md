@@ -1,4 +1,5 @@
 <p align="center"><img src="https://github.com/Pozytywne-3D/Meteo3D-Frontend/blob/master/src/img/image.png" width="600" > </p>
+<br><br><br>
 
 # Meteo by Pozytywne3D
 
