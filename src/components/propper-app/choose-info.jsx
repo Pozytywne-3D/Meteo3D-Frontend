@@ -27,12 +27,12 @@ const SelectInfo =  props => {
         <label className="presentation_info__choose_form--label" htmlFor="atmpress"><img src={hpa} alt="icon" /> <p>Ciśnienie atmosferyczne</p></label>
       </div>
       <div>
-        <input onClick={handleClick} name="choose-weather-info" type="radio" value="iaqpm10" id="iaqpm10" className="check" />
-        <label className="presentation_info__choose_form--label" htmlFor="iaqpm10"><img src={index} alt="icon" /> <p>PM10</p></label>
+        <input onClick={handleClick} name="choose-weather-info" type="radio" value="pm10" id="pm10" className="check" />
+        <label className="presentation_info__choose_form--label" htmlFor="pm10"><img src={index} alt="icon" /> <p>PM10</p></label>
       </div>
       <div>
-        <input onClick={handleClick} name="choose-weather-info" type="radio" value="iaqpm25" id="iaqpm25" className="check" />
-        <label className="presentation_info__choose_form--label" htmlFor="iaqpm25"><img src={index} alt="icon" /> <p>PM2.5</p></label>
+        <input onClick={handleClick} name="choose-weather-info" type="radio" value="pm25" id="pm25" className="check" />
+        <label className="presentation_info__choose_form--label" htmlFor="pm25"><img src={index} alt="icon" /> <p>PM2.5</p></label>
       </div>
     </form>
   )
