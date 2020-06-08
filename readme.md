@@ -1,3 +1,5 @@
+<img src="https://github.com/Pozytywne-3D/Meteo3D-Frontend/blob/master/src/img/image.png" width="600" style="margin: 0 auto; display:block;">
+
 # Meteo by Pozytywne3D
 
 The meteo application using the proprietary API, which downloads data from proprietary meteorological stations.
