@@ -7,9 +7,9 @@ const Header = () => {
     <>
       <header className="header">
           <nav className="header__nav">
-            <li className="header__nav--element"><a href="#kontakt">Kontakt</a></li>
-            <li className="header__nav--element"><a href="#stacje">Stacje</a></li>
-            <li className="header__nav--element"><a href="#oprojekcie">O projekcie</a></li>
+          <li className="header__nav--element"><a href="#oprojekcie">O projekcie</a></li>
+          <li className="header__nav--element"><a href="#stacje">Stacje</a></li>
+          <li className="header__nav--element"><a href="#kontakt">Kontakt</a></li>
           </nav> 
       </header>
       <section id="oprojekcie" className="about_project" >

@@ -13,4 +13,19 @@
             font-size: 3.5rem;
         }
     }
+
+    .header {
+        justify-content: center;
+        height: 45px;
+
+        &__nav {
+            &--element {
+                font-size: 3.5em;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
 }
