@@ -1,5 +1,4 @@
 .footer{
-  
   background-color: $secondaryColor;
   padding: 3.5rem 5rem 3.7rem 5rem;
   margin-top: 10rem;
@@ -19,10 +18,33 @@
           width: 15rem;
         }
     }
+
     &--api{
       @include fontStyle($primary, 2rem, 700, left);
       margin-left: 4rem;
+      position: relative;
     }
+
+    &--api, &__author{
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -0.4rem;
+        right: 0;
+        display: block;
+
+        width: 0;
+        height: 1px;
+
+        background: $primary;
+        transition: .3s;
+      }
+
+      &:hover::after{
+          width: 100%;
+      }
+    }
+
     &__socials{
       @include center;
       flex-direction: column;
@@ -49,5 +71,6 @@
     &__author{
       @include fontStyle($primary, 2rem, 600, center);
       align-self: flex-end;
+      position: relative;
     }
 }
