@@ -18,24 +18,9 @@
             @include fontStyle($primary, 2.4rem, 600, center);
             list-style: none;
             margin-right: 5rem;
-            position: relative;
 
-            &::after {
-                content: '';
-                position: absolute;
-                bottom: -0.4rem;
-                right: 0;
-                display: block;
-
-                width: 0;
-                height: 1px;
-
-                background: $primary;
-                transition: .3s;
-            }
-
-            &:hover::after{
-                width: 100%;
+            &:hover{
+				text-decoration: underline;   
             }
         }
     }
